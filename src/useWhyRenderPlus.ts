@@ -22,13 +22,13 @@ const optionsDefault: OPTIONS = {
 
 export const useWhyRenderPlus = (
   label: string,
-  deps: Record<string, any>,
+  deps?: Record<string, any>,
   options: Partial<OPTIONS> = optionsDefault
 ): void => {
   const opt = { ...optionsDefault, ...options };
 
   const renders = useRef(0);
-  const prevDeps = useRef(null);
+  const prevDeps = useRef<Record<string, any> | null>(null);
 
   const style = {
     header: `color:${opt?.color_header || "#ad04db"}; font-weight:bold`,
@@ -65,7 +65,7 @@ export const useWhyRenderPlus = (
         logger(`%c    ${msg}:\t${k}`, style.params);
 
         if (opt.val_previous && hasPrevious) {
-          logger(opt.val_previous && hasPrevious ? prevDeps.current[k] : "");
+          logger(opt.val_previous && hasPrevious ? prevDeps.current![k] : "");
         }
 
         if (opt.val_current) {

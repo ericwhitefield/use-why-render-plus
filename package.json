@@ -1,0 +1,22 @@
+{
+  "name": "use-why-render-plus",
+  "version": "1.0.0",
+  "description": "A React hook for quickly understanding why a component re-rendered via pretty console output",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericwhitefield/use-why-render-plus.git"
+  },
+  "author": "Eric Whitefield",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericwhitefield/use-why-render-plus/issues"
+  },
+  "homepage": "https://github.com/ericwhitefield/use-why-render-plus#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}

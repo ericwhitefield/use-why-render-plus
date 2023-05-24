@@ -9,6 +9,10 @@
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "sourceMap": true,
+    "jsx": "react",
+    "typeRoots": ["./node_modules/@types", "./types"]
   }
 }

@@ -34,7 +34,7 @@ export default function MyComponent({
 
 ### Example output
 
-![example console output](https://github.com/ericwhitefield/use-why-render-plus/blob/main/images/example.png?raw=true)
+![example console output](https://github.com/ericwhitefield/use-why-render-plus/blob/main/images/exmaple.png?raw=true)
 
 ### Options
 

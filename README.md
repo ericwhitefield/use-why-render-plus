@@ -6,7 +6,7 @@ A zero-config hook with pretty console output.
 
 Drop in a single line of code with this hook to view component render count, reason, and prop values.
 
-Spot re-renders vs new renders from count zero.
+Spot re-renders vs new renders from zero.
 
 ### Example usage
 
@@ -38,7 +38,7 @@ export default function MyComponent({
 
 ### Options
 
-Configure the output how you like. For exmaple, highlight only value changes, or put full state output on each re-rener.
+Configure the output how you like. For exmaple, highlight only value changes, or put full state output on each re-render.
 
 ```tsx
 const optionsDefault: OPTIONS = {

@@ -11,8 +11,8 @@ type OPTIONS = {
 };
 
 const optionsDefault: OPTIONS = {
-  on_change: true, // print the param when it changes
-  on_same: false, // print param out even when it has not changed
+  on_change: true, // print the param name when it changes
+  on_same: false, // print the param name even when it has not changed
   val_previous: false, // include previous value on print
   val_current: false, // include current value on print
   color_header: "#ad04db",

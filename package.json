@@ -1,6 +1,6 @@
 {
   "name": "use-why-render-plus",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React hook for quickly understanding why a component re-rendered via pretty console output",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
